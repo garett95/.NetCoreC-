@@ -6,8 +6,8 @@ namespace MainProgekt
     {
         static void Main(string[] args)
         {
+            AM_5(AM_6(4));
             
-            AM_5(45);
 
         }
         static void AM_2()
@@ -62,7 +62,10 @@ namespace MainProgekt
         {
             Console.WriteLine(a*a);
         }
-
+        static int AM_6(int a)
+        {
+            return (a * a);
+        }
 
     }   
 
