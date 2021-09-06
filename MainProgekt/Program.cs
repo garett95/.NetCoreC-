@@ -6,7 +6,7 @@ namespace MainProgekt
     {
         static void Main(string[] args)
         {
-            AM_5(AM_6(4));
+            show(AM_7(2.0,4.5,'*'));
             
 
         }
@@ -65,6 +65,35 @@ namespace MainProgekt
         static int AM_6(int a)
         {
             return (a * a);
+        }
+        static double AM_7(double a,double b, char c)
+        {
+            double d=0;
+            if (c=='-')
+            {
+                d = a - b;
+            }
+            else if (c == '+')
+            {
+                d = a + b;
+            }
+            else if (c == '*')
+            {
+                d = a * b;
+            }
+            else if (c == '/')
+            {
+                d = a / b;
+            }
+            else
+            {
+                Console.WriteLine(".!.");
+            }
+            return d;
+        }
+        static void show(double d)
+        {
+            Console.WriteLine($"{d}");
         }
 
     }   
