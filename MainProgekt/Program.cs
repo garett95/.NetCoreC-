@@ -6,8 +6,8 @@ namespace MainProgekt
     {
         static void Main(string[] args)
         {
-
-            AM_4();
+            
+            AM_5(45);
 
         }
         static void AM_2()
@@ -58,7 +58,10 @@ namespace MainProgekt
         {
             Console.WriteLine("Привет, мир");
         }
-
+        static void AM_5(int a)
+        {
+            Console.WriteLine(a*a);
+        }
 
 
     }   
