@@ -6,9 +6,7 @@ namespace MainProgekt
     {
         static void Main(string[] args)
         {
-            show(AM_7(2.0,4.5,'*'));
-            
-
+            Show(AM_7(2.0, 4.5, '*'));
         }
         static void AM_2()
         {
@@ -45,7 +43,7 @@ namespace MainProgekt
             c = a % 10;
             Console.WriteLine("Ведите число d");
             d = Convert.ToInt32(Console.ReadLine());
-            if (b == d || c == d) 
+            if (b == d || c == d)
             {
                 Console.WriteLine($"В число {a} входит цифра {d}");
             }
@@ -60,16 +58,16 @@ namespace MainProgekt
         }
         static void AM_5(int a)
         {
-            Console.WriteLine(a*a);
+            Console.WriteLine(a * a);
         }
         static int AM_6(int a)
         {
             return (a * a);
         }
-        static double AM_7(double a,double b, char c)
+        static double AM_7(double a, double b, char c)
         {
-            double d=0;
-            if (c=='-')
+            double d = 0;
+            if (c == '-')
             {
                 d = a - b;
             }
@@ -91,12 +89,9 @@ namespace MainProgekt
             }
             return d;
         }
-        static void show(double d)
+        static void Show(double d)
         {
             Console.WriteLine($"{d}");
         }
-
-    }   
-
-    
+    }
 }
