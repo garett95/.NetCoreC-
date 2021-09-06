@@ -7,7 +7,7 @@ namespace MainProgekt
         static void Main(string[] args)
         {
 
-            AM_3();
+            AM_4();
 
         }
         static void AM_2()
@@ -54,5 +54,14 @@ namespace MainProgekt
                 Console.WriteLine($"В число {a} не входит цифра {d}");
             }
         }
-    }
+        static void AM_4()
+        {
+            Console.WriteLine("Привет, мир");
+        }
+
+
+
+    }   
+
+    
 }
