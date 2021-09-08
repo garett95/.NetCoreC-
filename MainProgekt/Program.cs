@@ -6,7 +6,34 @@ namespace MainProgekt
     {
         static void Main(string[] args)
         {
-            Show(AM_7(2.0, 4.5, '*'));
+            //string[] a = new string[2];
+            //a[0] = "Азнив";
+            //a[1] = "Кот";
+            //Console.WriteLine($"{a[0]}");
+            //Console.WriteLine(a[1]);
+            char[] b = new char[3];
+            for (int i = 0; i < b.Length; i++)
+            {
+                Console.Write($"b[{i}] равно ");
+                b[i] = Convert.ToChar(Console.ReadLine());
+            }
+            for (int i = 1; i < b.Length; i++)
+            {
+                Console.Write($"{b[i]} ");
+            }
+
+            //Console.WriteLine("Введите элементы массива");
+
+            //for (int i = 0; i < b.Length; i++)
+            //{
+            //    Console.Write($"b[{i}] = ");
+            //    b[i] = Convert.ToInt32(Console.ReadLine());
+            //}
+
+            //for (int i = 0; i < b.Length; i++)
+            //{
+            //    Console.Write($"{b[i]} ");
+            //}
         }
         static void AM_2()
         {
