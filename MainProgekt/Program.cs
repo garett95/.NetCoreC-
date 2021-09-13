@@ -6,23 +6,30 @@ namespace MainProgekt
     {
         static void Main(string[] args)
         {
-            Student azniv1 = new Student(); //создание экземпляра класса азнив1 это экземпляр 
-            azniv1.age = 64;    //обращаемся к полю экземпляра класса 64 это не срок 
-            azniv1.firstName = "Asik"; 
-            
-            Student azniv2 = new Student();
-            azniv2.age = 24;
-            azniv2.firstName = "asdasfds";
+            double pi = Math.PI;
+            long tenThousand = 10000L;
+            long tenThousandPi = (long)pi * tenThousand;
+            int roundedTenThousandPi = (int) Math.Round ((double)tenThousandPi);
+            int integerPartOfTenThousandPi = (int) tenThousandPi;
+            Console.WriteLine(integerPartOfTenThousandPi);
+            Console.WriteLine(roundedTenThousandPi);
+            //Student azniv1 = new Student(); //создание экземпляра класса азнив1 это экземпляр 
+            //azniv1.age = 64;    //обращаемся к полю экземпляра класса 64 это не срок 
+            //azniv1.firstName = "Asik"; 
 
-            Student[] students = new Student[2]; //создаем массив, student - тип массива, students - название массива
-            students[0] = azniv1;
-            students[1] = azniv2;
-            //Console.WriteLine($"Имя - {students[0].firstName}, возраст - {students[0].age}");
-            //Console.WriteLine($"Имя - {students[1].firstName}, возраст - {students[1].age}");
-            for (int i = 0; i < students.Length; i++)
-            {
-                Console.WriteLine($"Имя - {students[i].firstName}, возраст - {students[i].age}");
-            }
+            //Student azniv2 = new Student();
+            //azniv2.age = 24;
+            //azniv2.firstName = "asdasfds";
+
+            //Student[] students = new Student[2]; //создаем массив, student - тип массива, students - название массива
+            //students[0] = azniv1;
+            //students[1] = azniv2;
+            ////Console.WriteLine($"Имя - {students[0].firstName}, возраст - {students[0].age}");
+            ////Console.WriteLine($"Имя - {students[1].firstName}, возраст - {students[1].age}");
+            //for (int i = 0; i < students.Length; i++)
+            //{
+            //    Console.WriteLine($"Имя - {students[i].firstName}, возраст - {students[i].age}");
+            //}
         }
         static void AM_2()
         {
