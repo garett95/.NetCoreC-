@@ -6,21 +6,22 @@ namespace MainProgekt
     {
         static void Main(string[] args)
         {
+            
             //string[] a = new string[2];
             //a[0] = "Азнив";
             //a[1] = "Кот";
             //Console.WriteLine($"{a[0]}");
             //Console.WriteLine(a[1]);
-            char[] b = new char[3];
-            for (int i = 0; i < b.Length; i++)
-            {
-                Console.Write($"b[{i}] равно ");
-                b[i] = Convert.ToChar(Console.ReadLine());
-            }
-            for (int i = 1; i < b.Length; i++)
-            {
-                Console.Write($"{b[i]} ");
-            }
+            //char[] b = new char[3];
+            //for (int i = 0; i < b.Length; i++)
+            //{
+            //    Console.Write($"b[{i}] равно ");
+            //    b[i] = Convert.ToChar(Console.ReadLine());
+            //}
+            //for (int i = 1; i < b.Length; i++)
+            //{
+            //    Console.Write($"{b[i]} ");
+            //}
 
             //Console.WriteLine("Введите элементы массива");
 
@@ -116,9 +117,23 @@ namespace MainProgekt
             }
             return d;
         }
-        static void Show(double d)
+        static void Show()
         {
-            Console.WriteLine($"{d}");
+            Console.WriteLine($"");
+        }
+        static void AM_9()
+        {
+            Car car1 = new Car();
+            Car car2 = new Car();
+            car1.Input();
+            car2.Input();
+            Car[] cars = new Car[2];
+            cars[0] = car1;
+            cars[1] = car2;
+            for (int i = 0; i < cars.Length; i++)
+            {
+                cars[i].Show();
+            }
         }
     }
 }
