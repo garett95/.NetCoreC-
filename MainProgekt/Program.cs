@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace MainProgekt
 {
@@ -8,28 +9,23 @@ namespace MainProgekt
         {
             double pi = Math.PI;
             long tenThousand = 10000L;
-            long tenThousandPi = (long)pi * tenThousand;
-            int roundedTenThousandPi = (int) Math.Round ((double)tenThousandPi);
+            double tenThousandPi = pi * tenThousand;
+            int roundedTenThousandPi =  (int) Math.Round(tenThousandPi);
             int integerPartOfTenThousandPi = (int) tenThousandPi;
             Console.WriteLine(integerPartOfTenThousandPi);
             Console.WriteLine(roundedTenThousandPi);
-            //Student azniv1 = new Student(); //создание экземпляра класса азнив1 это экземпляр 
-            //azniv1.age = 64;    //обращаемся к полю экземпляра класса 64 это не срок 
-            //azniv1.firstName = "Asik"; 
-
-            //Student azniv2 = new Student();
-            //azniv2.age = 24;
-            //azniv2.firstName = "asdasfds";
-
-            //Student[] students = new Student[2]; //создаем массив, student - тип массива, students - название массива
-            //students[0] = azniv1;
-            //students[1] = azniv2;
-            ////Console.WriteLine($"Имя - {students[0].firstName}, возраст - {students[0].age}");
-            ////Console.WriteLine($"Имя - {students[1].firstName}, возраст - {students[1].age}");
-            //for (int i = 0; i < students.Length; i++)
+            //List<int> pidr = new List<int>() { 1, 2, 5 };
+            //pidr.Add(4);
+            //pidr.Add(7);
+            //pidr.AddRange(new int[] { 10, 12, 15 });
+            //pidr.Sort();
+            //pidr.RemoveAt(0);
+            //Console.WriteLine($"sadfasd {pidr.IndexOf(4)}");
+            //foreach (int i in pidr)
             //{
-            //    Console.WriteLine($"Имя - {students[i].firstName}, возраст - {students[i].age}");
+            //    Console.WriteLine(i);
             //}
+
         }
         static void AM_2()
         {
