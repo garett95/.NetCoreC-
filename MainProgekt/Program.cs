@@ -7,13 +7,7 @@ namespace MainProgekt
     {
         static void Main(string[] args)
         {
-            double pi = Math.PI;
-            long tenThousand = 10000L;
-            double tenThousandPi = pi * tenThousand;
-            int roundedTenThousandPi =  (int) Math.Round(tenThousandPi);
-            int integerPartOfTenThousandPi = (int) tenThousandPi;
-            Console.WriteLine(integerPartOfTenThousandPi);
-            Console.WriteLine(roundedTenThousandPi);
+            AM_10();
             //List<int> pidr = new List<int>() { 1, 2, 5 };
             //pidr.Add(4);
             //pidr.Add(7);
@@ -112,5 +106,31 @@ namespace MainProgekt
         {
             Console.WriteLine($"{d}");
         }
+        static void AM_10 ()
+        {
+            //List<Cat> cats = new List<Cat>();
+            //Cat cat = new Cat();
+            //cat.Age = 2;
+            //cat.Name = "Barsik";
+            //Cat cat2 = new Cat() { Name = "Murka", Age = 5 };
+            //cats.Add(cat);
+            //cats.Add(cat2);
+            //cats.Add(new Cat() { Name = "Murka", Age = 5 });
+            //List<Dog> dogs = new List<Dog>();
+            //dogs.Add(new Dog() { Age = 7, Name = "Bobick" });
+            //Dog dog = new Dog();
+            //dog.Name = "Grom";
+            //dog.Age = 3;
+            //dogs.Add(dog);
+            //foreach (Cat i in cats)
+            //{
+            //    i.Show();
+            //}
+            //foreach (Dog i in dogs)
+            //{
+            //    i.Show();
+            //}
+        }
+
     }
 }
