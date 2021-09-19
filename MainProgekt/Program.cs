@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 
 namespace MainProgekt
@@ -108,6 +109,13 @@ namespace MainProgekt
         }
         static void AM_10 ()
         {
+            ArrayList animals = new ArrayList();
+            animals.Add (new Cat() { Name = "Murka", Age = 5 });
+            animals.Add (new Dog() { Age = 7, Name = "Bobick" });
+            foreach (var i in animals)
+            {
+                Console.WriteLine(i);
+            }
             //List<Cat> cats = new List<Cat>();
             //Cat cat = new Cat();
             //cat.Age = 2;
@@ -130,6 +138,7 @@ namespace MainProgekt
             //{
             //    i.Show();
             //}
+
         }
 
     }
