@@ -7,8 +7,11 @@ namespace MainProgekt
     class Program
     {
         static void Main(string[] args)
+            public static int[] GetFirstEvenNumbers(int count)
         {
-            AM_10();
+            int[] array;
+            array = new int[count];
+            Console.WriteLine(array.Length);
             //List<int> pidr = new List<int>() { 1, 2, 5 };
             //pidr.Add(4);
             //pidr.Add(7);
