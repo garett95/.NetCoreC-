@@ -7,24 +7,14 @@ namespace MainProgekt
     {
         static void Main(string[] args)
         {
-            double pi = Math.PI;
-            long tenThousand = 10000L;
-            double tenThousandPi = pi * tenThousand;
-            int roundedTenThousandPi =  (int) Math.Round(tenThousandPi);
-            int integerPartOfTenThousandPi = (int) tenThousandPi;
-            Console.WriteLine(integerPartOfTenThousandPi);
-            Console.WriteLine(roundedTenThousandPi);
-            //List<int> pidr = new List<int>() { 1, 2, 5 };
-            //pidr.Add(4);
-            //pidr.Add(7);
-            //pidr.AddRange(new int[] { 10, 12, 15 });
-            //pidr.Sort();
-            //pidr.RemoveAt(0);
-            //Console.WriteLine($"sadfasd {pidr.IndexOf(4)}");
-            //foreach (int i in pidr)
-            //{
-            //    Console.WriteLine(i);
-            //}
+            //0.0, 6.0, 3,6
+            
+            var triangle1 = new Triangle();
+            triangle1.A = new Point { X = 0, Y = 0 };
+            triangle1.B = new Point { X = 6, Y = 0 };
+            triangle1.C = new Point { X = 3, Y = 6 };
+            var D = new Point{ X = 0, Y = 0 };
+            Console.WriteLine(triangle1);
 
         }
         static void AM_2()
